@@ -1,0 +1,154 @@
+/*back*/
+background {
+    top: 270px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+img.repeat {
+    height: 1100px;
+    width: 1004px;
+}
+/*end of back*/
+
+#consultations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index:1;
+    height: 2100px;
+}
+
+/*column2*/
+.column_2 {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading_p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+p.heading_1 {
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000066;
+    padding: 0px;
+}
+
+#consultations > div.home_columns > div.column_2 > img {
+    width: 273px;
+    height: 206px;
+}
+
+#consultations > div.home_columns > div.column_3 > a:nth-child(1) > img {
+    width: 170px;
+    height:224px;
+}
+
+#consultations > div.home_columns > div.column_3 {
+    font-size: 14px;
+}
+
+#consultations > div.home_columns > div.column_3 > a:nth-child(16) > img {
+    width: 216px;
+    height: 162px;
+}
+
+#consultations > div.home_columns > div.column_3 > img:nth-child(29) {
+    width: 202px;
+    height: 107px;
+}
+
+#consultations > div.home_columns > div.column_3 > img:nth-child(31) {
+    width: 128px;
+    height: 126px;
+}
+
+#consultations > div.home_columns > div.column_3 > img:nth-child(33) {
+    width: 135px;
+    height: 76px;
+}
+
+blue_bold {
+    font-size:15px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #000066;
+}
+#consultations > div.home_columns > div.column_2 > img {
+    width: 100px;
+    height: 100px;
+}
+
+.expectation {
+    padding: 5px;
+    border-width: 2px;
+    border-color: #000066;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+h3 {
+    text-align: center;
+}
+
+blue {
+    color: #000066;
+}
+
+under_bold {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.consult {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.consult img {
+    width: 208px;
+    height: 233px;
+}
+
+.consult a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#column_1 > div:nth-child(1) > label {
+    display: flex;
+    flex-direction: column;
+}
+
+#consultations > div.home_columns > div.column_2 > div.column_1_form {
+    padding: 10px;
+}
+
+#column_1 > div:nth-child(2) > label {
+    display: flex;
+    flex-direction: column;
+}
+
+#column_1 > div:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+}

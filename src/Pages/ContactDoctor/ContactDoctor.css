@@ -1,0 +1,89 @@
+#contact_doctor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index:1;
+    height: 2100px;
+}
+
+#contact_doctor > div.home_columns > div.column_2 > img {
+    width: 273px;
+    height: 206px;
+}
+
+#contact_doctor > div.home_columns > div.column_3 > a:nth-child(1) > img {
+    width: 170px;
+    height:224px;
+}
+
+#contact_doctor > div.home_columns > div.column_3 {
+    font-size: 14px;
+}
+
+#contact_doctor > div.home_columns > div.column_3 > a:nth-child(16) > img {
+    width: 216px;
+    height: 162px;
+}
+
+#contact_doctor > div.home_columns > div.column_3 > img:nth-child(29) {
+    width: 202px;
+    height: 107px;
+}
+
+#contact_doctor > div.home_columns > div.column_3 > img:nth-child(31) {
+    width: 128px;
+    height: 126px;
+}
+
+#contact_doctor > div.home_columns > div.column_3 > img:nth-child(33) {
+    width: 135px;
+    height: 76px;
+}
+
+#contact_doctor > div.home_columns > div.column_2 > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(4) {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(3) {
+    display: flex;
+
+}
+
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(3) > label,
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(2) > label,
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(1) > label{
+    width: 68px;
+}
+
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(1),
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+#email,#comments,#name{
+    width:270px;
+}
+
+#comments {
+    height: 100px;
+}
+
+#contact_doctor > div.home_columns > div.column_2 > form > div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+}
+
+immediate {
+    padding: 5px 10px;
+    border-width: 2px;
+    border-color: #000066;
+    border-style: solid;
+    background-color: #BEC4FD;
+}

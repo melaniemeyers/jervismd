@@ -1,0 +1,26 @@
+.purple_button {
+    background-image: url("../../images/Buttons/Shiny_Button_Periwinkle.gif");
+    border: 0;
+    display: flex;
+    align-items: center;
+    width: 115px;
+    height: 31px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(117, 3, 52);
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.purple_button a {
+    cursor: pointer;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(117, 3, 52);
+    text-decoration: none;
+
+}
+.purple_button a:hover{
+    color: rgb(136, 192, 127)
+}

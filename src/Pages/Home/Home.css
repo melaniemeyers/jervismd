@@ -1,0 +1,222 @@
+/*back*/
+background {
+    top: 270px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+img.repeat {
+    height: 1100px;
+    width: 1004px;
+}
+/*end of back*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index:1;
+    height: 2100px;
+}
+
+.home_columns {
+    display: flex;
+    margin-top: 10px;
+    gap: 55px;
+    max-width: 1004px;
+    height: 1670px;
+}
+
+/*column1*/
+.column_1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    width: 275px;
+    margin-top: 20px;
+}
+
+p.form_heading {
+    font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #000066;
+}
+
+div.column_1_form {
+    border: 1px dashed rgb(117, 3, 52);
+    padding: 10px 5px 10px 5px;
+}
+
+form#column_1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+form#column_1 label{
+    color: rgb(117, 3, 52);
+}
+
+.submit_btn {
+    background-image: url("../../images/QuickSiteImages/btn_submit.jpg");
+    border: 0;
+    width:53px;
+    height: 14px;
+    margin-top: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+/*column2*/
+.column_2 {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 300px;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading_p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+}
+p.heading_1 {
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000066;
+    padding: 0px;
+}
+p.heading_2{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000066;
+    padding: 0px;
+    text-align: center;
+}
+
+.a_link {
+    color: rgb(117, 3, 52);
+    text-align: center;
+}
+
+#home > div.home_columns > div.column_2 > img {
+    width: 273px;
+    height: 206px;
+}
+
+.box-1 {
+    text-align: center;
+    height: 304px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #000066;
+    border-top-color: rgb(0, 0, 102);
+    border-right-color: rgb(0, 0, 102);
+    border-bottom-color: rgb(0, 0, 102);
+    border-left-color: rgb(0, 0, 102);
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+.box-1 > p {
+    font-size: 12px;
+    color: #000066;
+}
+
+.box-1 > h4 {
+    margin: 0;
+    color: #000066;
+}
+
+.box-2 {
+    text-align: center;
+    padding: 5px;
+    border-width: 4px;
+    border-color: #710F4B;
+    border-top-color: rgb(113, 15, 75);
+    border-right-color: rgb(113, 15, 75);
+    border-bottom-color: rgb(113, 15, 75);
+    border-left-color: rgb(113, 15, 75);
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+.box-3 {
+    font-weight: bold;
+    color: #000066;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 35px;
+    border-width: 4px;
+    border-color: #000066;
+    border-top-color: #000066;
+    border-right-color: #000066;
+    border-bottom-color: #000066;
+    border-left-color: #000066;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+.colored_field {
+    color: #710F4B;
+}
+
+/*column3*/
+.column_3 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 17px;
+    width: 284px;
+    align-items: center;
+}
+#home > div.home_columns > div.column_3 > a:nth-child(1) > img {
+    width: 170px;
+    height:224px;
+}
+
+#home > div.home_columns > div.column_3 {
+    font-size: 14px;
+}
+
+#home > div.home_columns > div.column_3 > a:nth-child(16) > img {
+    width: 216px;
+    height: 162px;
+}
+
+#home > div.home_columns > div.column_3 > img:nth-child(29) {
+    width: 202px;
+    height: 107px;
+}
+
+#home > div.home_columns > div.column_3 > img:nth-child(31) {
+    width: 128px;
+    height: 126px;
+}
+
+#home > div.home_columns > div.column_3 > img:nth-child(33) {
+    width: 135px;
+    height: 76px;
+}
+
+p, h1, h2, h3, a {
+    margin: 0;
+}
