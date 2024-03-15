@@ -12,6 +12,14 @@ import SurgeryCenter from "./Pages/SurgeryCenter/SurgeryCenter";
 import Testimonials from "./Pages/Testimonials/Testimonials";
 import Blog from "./Pages/Blog/Blog";
 import Links from "./Pages/Links/Links";
+import FacialProcedures from "./Pages/FacialProcedures/FacialProcedures";
+import Products from "./Pages/Products/Products";
+import BottoxAndFillers from "./Pages/BottoxAndFillers/BottoxAndFillers";
+import EyelidLift from "./Pages/EyelidLift/EyelidLift";
+import Breast from "./Pages/Breast/Breast";
+import BreastReduction from "./Pages/BreastReduction/BreastReduction";
+import BreastAugmentation from "./Pages/BreastAugmentation/BreastAugmentation";
+import Body from "./Pages/Body/Body";
 
 function App() {
   return (
@@ -23,27 +31,29 @@ function App() {
               <Route path='/consultations' element={<Consultations />} />
               <Route path='/procedures' element={<Procedures />} />
 
-              {/*<Route path='/breast' element={<Home />} />*/}
-              {/*<Route path='/liposuction' element={<Home />} />*/}
-              {/*<Route path='/bottox_and_fillers' element={<Home />} />*/}
-              {/*<Route path='/face' element={<Home />} />*/}
-              {/*<Route path='/tummy_tuck' element={<Home />} />*/}
-              {/*<Route path='/body' element={<Home />} />*/}
-              {/*<Route path='/mommy_makeover' element={<Home />} />*/}
+              <Route path='/breast' element={<Breast />} />
+              <Route path='/botox_and_fillers' element={<BottoxAndFillers />} />
+              <Route path='/face' element={<FacialProcedures />} />
+              {/*<Route path='/body' element={<Body/>} />*/}
 
               <Route path='/contact_doctor' element={<ContactDoctor />} />
               <Route path='/faqs' element={<FAQS />} />
-              {/*<Route path='/photo_gallery' element={<Home />} />*/}
               <Route path='/surgery_center' element={<SurgeryCenter />} />
               <Route path='/testimonials' element={<Testimonials />} />
-              {/*<Route path='/financing' element={<Home />} />*/}
-              {/*<Route path='/patient_forms' element={<Home />} />*/}
-              {/*<Route path='/directions' element={<Home />} />*/}
-              {/*<Route path='/whats_new' element={<Home />} />*/}
               <Route path='/blog' element={<Blog />} />
               <Route path='/links' element={<Links />} />
-              {/*<Route path='/site_map' element={<Home />} />*/}
               <Route path='/aaaasf' element={<AAAASF />} />
+
+              <Route path='/products' element={<Products />} />
+
+              <Route path='/breast/augmentation' element={<BreastAugmentation />} />
+              <Route path='/breast/reduction' element={<BreastReduction />} />
+
+              <Route path='/face/eyelid_lift' element={<EyelidLift />} />
+
+              <Route path='/face/lip_augmentation' element={<Body />} />
+
+
           </Routes>
       </Router>
   );

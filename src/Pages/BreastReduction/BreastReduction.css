@@ -1,0 +1,14 @@
+#row3 {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+#row3 img{
+    width: 182px;
+}
+
+blue_li {
+    text-align: left;
+    color: #000066;
+}

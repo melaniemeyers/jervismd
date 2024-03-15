@@ -1,0 +1,9 @@
+#row2 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+#row2 img {
+
+    width: 200px;
+}

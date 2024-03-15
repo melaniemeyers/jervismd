@@ -1,0 +1,13 @@
+#row1 {
+    display: flex;
+    gap: 10px;
+}
+
+#row1 img {
+    height: 110px;
+    width: 220px;
+}
+
+#about_doctor > div.home_columns > div.column_2_about > img {
+    width: 90%;
+}

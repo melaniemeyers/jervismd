@@ -20,6 +20,7 @@ import logo7 from "../../images/QuickSiteImages/logo_ipras.jpg";
 import Footer from "../../Components/Footer/Footer";
 import surg1 from '../../images/1.jfif'
 import surg2 from '../../images/2.jpg'
+import OrangeButton from "../../Components/OrangeButton/OrangeButton";
 function SurgeryCenter() {
     return (
         <div id='surgery'>
@@ -37,10 +38,10 @@ function SurgeryCenter() {
                     <PurpleButton text='Consultations' link='/consultations'/>
                     <PurpleButton text='Procedures' link='/procedures'/>
 
-                    {/*<OrangeButton text='breast' link='/breast'/>*/}
+                    <OrangeButton text='breast' link='/breast'/>
                     {/*<OrangeButton text='liposuction' link='/liposuction'/>*/}
-                    {/*<OrangeButton text='botox & fillers' link='/bottox_and_fillers'/>*/}
-                    {/*<OrangeButton text='face' link='/face'/>*/}
+                    <OrangeButton text='botox & fillers' link='/botox_and_fillers'/>
+                    <OrangeButton text='face' link='/face'/>
                     {/*<OrangeButton text='tummy tuck' link='/tummy_tuck'/>*/}
                     {/*<OrangeButton text='body' link='/body'/>*/}
                     {/*<OrangeButton text='mommy makeover' link='/mommy_makeover'/>*/}

@@ -18,6 +18,7 @@ import logo6 from "../../images/QuickSiteImages/logo_international-society.jpg";
 import logo7 from "../../images/QuickSiteImages/logo_ipras.jpg";
 import Footer from "../../Components/Footer/Footer";
 import aaaasf from '../../images/dr_jervis_aaaasf_surgery_center.jpg'
+import OrangeButton from "../../Components/OrangeButton/OrangeButton";
 
 function AAAASF() {
     return (
@@ -36,10 +37,10 @@ function AAAASF() {
                     <PurpleButton text='Consultations' link='/consultations'/>
                     <PurpleButton text='Procedures' link='/procedures'/>
 
-                    {/*<OrangeButton text='breast' link='/breast'/>*/}
+                    <OrangeButton text='breast' link='/breast'/>
                     {/*<OrangeButton text='liposuction' link='/liposuction'/>*/}
-                    {/*<OrangeButton text='botox & fillers' link='/bottox_and_fillers'/>*/}
-                    {/*<OrangeButton text='face' link='/face'/>*/}
+                    <OrangeButton text='botox & fillers' link='/botox_and_fillers'/>
+                    <OrangeButton text='face' link='/face'/>
                     {/*<OrangeButton text='tummy tuck' link='/tummy_tuck'/>*/}
                     {/*<OrangeButton text='body' link='/body'/>*/}
                     {/*<OrangeButton text='mommy makeover' link='/mommy_makeover'/>*/}
