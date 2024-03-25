@@ -99,35 +99,46 @@ function Links() {
                     <p className='heading_1'>Links, Charities and Foundations-Dr Jervis of Walnut Creek CA-Wheelchair
                         Foundation, Ohloff, Project Jatropha, and willd cat of Walnut Creek</p>
                     <br/>
-                    <d1v>
-                        <a href='http://www.boardcertified.com/' className='a_link'>Boardcertified.com</a>
-                    </d1v>
-                    <d1v>
-                        <a href='http://www.surgery.org' className='a_link'>American Socieity for Aesthetic Plastic Surgery</a>
-                    </d1v>
                     <div5>
                         <h1>Charities and Foundations</h1>
                     </div5>
                     <d1v>
-                        <a href='http://www.wheelchairfoundation.org' className='a_link'>www.wheelchairfoundation.org</a>
+                        <a href='http://www.surgery.org' className='a_link'>American Socieity for Aesthetic Plastic
+                            Surgery</a>
                     </d1v>
-                    <div5>
-                        <b><h3><a className='a_link' href=''>
-                            Project Jatropha
-                        </a></h3>
-                        <br/>
-                        <green>
-                            Helping the world see an alternative to fossil fuels while helping those in need around the world.
-                        </green></b>
-                    </div5>
+
+                    <d1v>
+                        <a href='http://www.wheelchairfoundation.org'
+                           className='a_link'>www.wheelchairfoundation.org</a>
+                    </d1v>
+                    <d1v>
+                        <a href='https://www.lenostube.com/en/'
+                           className='a_link'>Lenos</a>
+                    </d1v>
+                    <d1v>
+                        <a href='https://www.apha.org/'
+                           className='a_link'>Apha</a>
+                    </d1v>
+                    <d1v>
+                        <a href='https://funbutsmart.com/'
+                           className='a_link'>FunButSmart</a>
+                    </d1v>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <div className='box-3'>
                         <a className='a_link' href=''> Dr. Jervis'<br/>
-                        Wild cats of Walnut Creek, CA</a>
+                            Wild cats of Walnut Creek, CA</a>
                     </div>
                     <br/><br/><br/><br/>
                     <div className='box-3'>
                         <b>
-                        Dr. William Jervis
+                            Dr. William Jervis
                             <br/>
                             1844 San Miguel Dr #109
                             <br/>
