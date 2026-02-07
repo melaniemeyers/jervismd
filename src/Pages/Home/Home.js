@@ -25,10 +25,10 @@ function Home(){
         <div id='home'>
             <Header/>
             <background>
-                <img src={background_heading}/>
-                <img src={background_top}/>
-                <img src={background_repeat} className='repeat'/>
-                <img src={background_bottom}/>
+                <img src={background_heading} alt=""/>
+                <img src={background_top} alt=""/>
+                <img src={background_repeat} className='repeat' alt=""/>
+                <img src={background_bottom} alt=""/>
             </background>
             <div className='home_columns'>
                 <div className='column_1'>
@@ -86,11 +86,11 @@ function Home(){
                         </form>
                     </div>
                     <div className='icons'>
-                        <a href=''>
-                            <img src={facebook}/>
+                        <a href='#!'>
+                            <img src={facebook} alt=""/>
                         </a>
-                        <a href=''>
-                            <img src={yelp}/>
+                        <a href='#!'>
+                            <img src={yelp} alt=""/>
                         </a>
                     </div>
                 </div>
@@ -101,33 +101,33 @@ function Home(){
                     <p className='heading_1'>From Liposuction to Breast Augmentation: Enhance Your <br/> Image with Cosmetic Surgery</p>
                     <p className='heading_2'>William Jervis, MD of Walnut Creek, CA is a
                         Board-Certified Bay Area Plastic Surgeon who invests in the newest,
-                        state-of-the-art technologies, such as <a className='a_link' href=''>Laser LifeSculpt</a> for Liposuction,
-                        Coleman System for <a className='a_link' href=''>Autologous fat reinjection</a>, endotine system for <a className='a_link' href=''>brow
+                        state-of-the-art technologies, such as <a className='a_link' href='#!'>Laser LifeSculpt</a> for Liposuction,
+                        Coleman System for <a className='a_link' href='#!'>Autologous fat reinjection</a>, endotine system for <a className='a_link' href='#!'>brow
                         lifts</a> and Rhytec Portrait Plasma for skin rejuvenation, as well as using
                         traditional technologies for reliably achieving superb outcomes.
                         Dedicated to rejuvenating and enhancing your natural beauty in a
                         way that makes you look better and feel more confident about your appearance.
                     </p>
-                    <img src={yoga}/>
+                    <img src={yoga} alt=""/>
                     <div className='box-1'>
                         <h4>Philosophy</h4>
                         <br/>
-                        <p>After more than 20 years in practice <a className='a_link' href=''>Dr. Jervis</a> has focused his
+                        <p>After more than 20 years in practice <a className='a_link' href='#!'>Dr. Jervis</a> has focused his
                             energy & expertise primarily
                             into aesthetic surgery. We are offer both surgical & non-surgical options for our
                             patients.</p><br/>
 
                         <p>First, he accurately assesses the client's goals & effectively communicates how to achieve
-                            these in the most efficient & safe manner. At your <a className='a_link' href=''>consultation</a> he
+                            these in the most efficient & safe manner. At your <a className='a_link' href='#!'>consultation</a> he
                                   will discuss what can
                                 reasonably be expected for an outcome as well as possible alternative approaches,
                             limitations, ways to be as pain-free as possible & potential complications. </p><br/>
 
                         <p>His dedication to expertise and artistry in aesthetic surgery, attention to detail & total
                             post-operative care are the hallmarks of Dr. Jervis' practice. It begins with a <a
-                                className='a_link' href=''>consultation</a> with <a className='a_link' href=''>Dr.
+                                className='a_link' href='#!'>consultation</a> with <a className='a_link' href='#!'>Dr.
                                 Jervis</a>
-                            , & then to a tour of our fully accredited (<a className='a_link' href=''>AAAASF</a>) <a className='a_link' href=''>surgical
+                            , & then to a tour of our fully accredited (<a className='a_link' href='#!'>AAAASF</a>) <a className='a_link' href='#!'>surgical
                                 suite</a> where most
                             of our surgery is done. Extensive cases, or for those with medical issues could be done at
                             one of the hospitals such as John Muir Medical Center where Dr. Jervis was Plastic Surgery
@@ -135,7 +135,7 @@ function Home(){
                             Center). </p><br/>
                     </div>
                     <div className='box-2'>
-                        When you are ready to schedule a free <a className='a_link' href=''>consultation appointment
+                        When you are ready to schedule a free <a className='a_link' href='#!'>consultation appointment
                         with Dr. Jervis</a>, please call us at <b>925-937-7100</b> or
                          email us at DrJervisScheduling@gmail.com.
                         <br/>
@@ -157,7 +157,7 @@ function Home(){
 
                 <div className='column_3'>
                     <a href='/about_doctor'>
-                        <img src={body_pic}/>
+                        <img src={body_pic} alt=""/>
                     </a>
                     <br/>
                     <br/>
@@ -175,7 +175,7 @@ function Home(){
                     <br/>
                     <br/>
                     <a href='/consultations' className='a_link'>
-                        <img src={body_pic2}/>
+                        <img src={body_pic2} alt=""/>
                     </a>
                     Waiting Area
                     <br/>
@@ -183,24 +183,24 @@ function Home(){
                     <br/>
                     <br/>
                     <a href='/aaaasf' className='a_link'>
-                        <img src={body_pic3}/>
+                        <img src={body_pic3} alt=""/>
                         AAAASF Surgical Center
                     </a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-                    <img src={logo1}/>
+                    <img src={logo1} alt=""/>
                     <div>
-                        <img src={logo2}/>
-                        <img src={logo3}/>
+                        <img src={logo2} alt=""/>
+                        <img src={logo3} alt=""/>
                     </div>
                     <br/>
-                    <img src={logo5}/>
+                    <img src={logo5} alt=""/>
                     <br/>
-                    <img src={logo6}/>
+                    <img src={logo6} alt=""/>
                     <br/>
-                    <img src={logo7}/><br/>
+                    <img src={logo7} alt=""/><br/>
                     <br/>
                     <br/>
                     <br/>

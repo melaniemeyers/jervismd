@@ -8,7 +8,6 @@ import PurpleButton from "../../Components/PurpleButton/PurpleButton";
 import OrangeButton from "../../Components/OrangeButton/OrangeButton";
 import facebook from "../../images/facebook-icon.jpg";
 import yelp from "../../images/yelp-icon.jpg";
-import products from "../../images/products.jfif";
 import body_pic from "../../images/QuickSiteImages/body_pic1.jpg";
 import body_pic2 from "../../images/dr_jervis_waiting_room_cosmetic_surgery.JPG";
 import body_pic3 from "../../images/QuickSiteImages/body_pic3.jpg";
@@ -19,7 +18,7 @@ import logo5 from "../../images/project_beauty.JPG";
 import logo6 from "../../images/QuickSiteImages/logo_international-society.jpg";
 import logo7 from "../../images/QuickSiteImages/logo_ipras.jpg";
 import Footer from "../../Components/Footer/Footer";
-import Box_3 from "../../Components/box-3/box-3";
+import Box3 from "../../Components/box-3/box-3";
 
 import image1 from '../../images/Eyelid lift (Blepharoplasty)1.jpg'
 import image2 from '../../images/Eyelid lift (Blepharoplasty)2.jpg'
@@ -50,10 +49,10 @@ function EyelidLift() {
         <div id='about_doctor'>
             <Header/>
             <background>
-                <img src={background_heading}/>
-                <img src={background_top}/>
-                <img src={background_repeat} className='repeat_about'/>
-                <img src={background_bottom}/>
+                <img src={background_heading} alt=""/>
+                <img src={background_top} alt=""/>
+                <img src={background_repeat} className='repeat_about' alt=""/>
+                <img src={background_bottom} alt=""/>
             </background>
             <div className='home_columns'>
                 <div className='column_1'>
@@ -111,11 +110,11 @@ function EyelidLift() {
                         </form>
                     </div>
                     <div className='icons'>
-                        <a href=''>
-                            <img src={facebook}/>
+                        <a href='#!'>
+                            <img src={facebook} alt=""/>
                         </a>
-                        <a href=''>
-                            <img src={yelp}/>
+                        <a href='#!'>
+                            <img src={yelp} alt=""/>
                         </a>
                     </div>
                 </div>
@@ -133,12 +132,12 @@ function EyelidLift() {
                         </blue_bold>
                     </bluebox>
                     <div id='row1'>
-                        <img src={image1}/>
-                        <img src={image2}/>
+                        <img src={image1} alt=""/>
+                        <img src={image2} alt=""/>
                     </div>
                     <div id='row1'>
-                        <img src={image3}/>
-                        <img src={image4}/>
+                        <img src={image3} alt=""/>
+                        <img src={image4} alt=""/>
                     </div>
                     <div4>
                         Age: 49 2 years after upper & lower eyelid lift
@@ -150,8 +149,8 @@ function EyelidLift() {
                         forward which can cause bags in both the upper & lower eyelid.
                     </div5>
                     <div id='row1'>
-                        <img src={image5}/>
-                        <img src={image6}/>
+                        <img src={image5} alt=""/>
+                        <img src={image6} alt=""/>
                     </div>
                     <div id='row1'>
                         <div4>
@@ -160,8 +159,8 @@ function EyelidLift() {
                         <div4>3 years after procedure</div4>
                     </div>
                     <div id='row1'>
-                        <img src={image7}/>
-                        <img src={image8}/>
+                        <img src={image7} alt=""/>
+                        <img src={image8} alt=""/>
                     </div>
                     <blue_box>
                         <a className='a_link' href='/about_doctor'>Dr. Jervis</a>
@@ -170,8 +169,8 @@ function EyelidLift() {
                         </blue>
                     </blue_box>
                     <div id='row1'>
-                        <img src={image9}/>
-                        <img src={image10}/>
+                        <img src={image9} alt=""/>
+                        <img src={image10} alt=""/>
                     </div>
                     <div id='row1'>
                         <div4>
@@ -180,12 +179,12 @@ function EyelidLift() {
                         <div4>3 Months after upper & lower blepharoplasty</div4>
                     </div>
                     <div id='row1'>
-                        <img src={image11}/>
-                        <img src={image12}/>
+                        <img src={image11} alt=""/>
+                        <img src={image12} alt=""/>
                     </div>
                     <div id='row1'>
-                        <img src={image13}/>
-                        <img src={image14}/>
+                        <img src={image13} alt=""/>
+                        <img src={image14} alt=""/>
                     </div>
                     <div id='row1'>
                         <div4>
@@ -194,8 +193,8 @@ function EyelidLift() {
                         <div4>5 weeks after Upper Eye Lid skin and fat removal</div4>
                     </div>
                     <div id='row1'>
-                        <img src={image15}/>
-                        <img src={image16}/>
+                        <img src={image15} alt=""/>
+                        <img src={image16} alt=""/>
                     </div>
                     <div id='row1'>
                         <div4>
@@ -203,13 +202,13 @@ function EyelidLift() {
                         </div4>
                         <div4>2 Months after Fat Pad Removal through inside of lower eyelid</div4>
                     </div>
-                    <img src={image17}/>
-                    <Box_3/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    <img src={image17} alt=""/>
+                    <Box3/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
 
                 <div className='column_3'>
                     <a href='/about_doctor'>
-                        <img src={body_pic}/>
+                        <img src={body_pic} alt=""/>
                     </a>
                     <br/>
                     <br/>
@@ -227,7 +226,7 @@ function EyelidLift() {
                     <br/>
                     <br/>
                     <a href='/consultations' className='a_link'>
-                        <img src={body_pic2}/>
+                        <img src={body_pic2} alt=""/>
                     </a>
                     Waiting Area
                     <br/>
@@ -235,24 +234,24 @@ function EyelidLift() {
                     <br/>
                     <br/>
                     <a href='/aaaasf' className='a_link'>
-                        <img src={body_pic3}/>
+                        <img src={body_pic3} alt=""/>
                         AAAASF Surgical Center
                     </a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-                    <img src={logo1}/>
+                    <img src={logo1} alt=""/>
                     <div>
-                        <img src={logo2}/>
-                        <img src={logo3}/>
+                        <img src={logo2} alt=""/>
+                        <img src={logo3} alt=""/>
                     </div>
                     <br/>
-                    <img src={logo5}/>
+                    <img src={logo5} alt=""/>
                     <br/>
-                    <img src={logo6}/>
+                    <img src={logo6} alt=""/>
                     <br/>
-                    <img src={logo7}/>
+                    <img src={logo7} alt=""/>
                 </div>
             </div>
             <Footer/>

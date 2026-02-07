@@ -8,8 +8,6 @@ import PurpleButton from "../../Components/PurpleButton/PurpleButton";
 import OrangeButton from "../../Components/OrangeButton/OrangeButton";
 import facebook from "../../images/facebook-icon.jpg";
 import yelp from "../../images/yelp-icon.jpg";
-import cons from "../../images/consultations.jpg";
-import consult from "../../images/consult.jpg";
 import body_pic from "../../images/QuickSiteImages/body_pic1.jpg";
 import body_pic2 from "../../images/dr_jervis_waiting_room_cosmetic_surgery.JPG";
 import body_pic3 from "../../images/QuickSiteImages/body_pic3.jpg";
@@ -20,17 +18,16 @@ import logo5 from "../../images/project_beauty.JPG";
 import logo6 from "../../images/QuickSiteImages/logo_international-society.jpg";
 import logo7 from "../../images/QuickSiteImages/logo_ipras.jpg";
 import Footer from "../../Components/Footer/Footer";
-import yoga from "../../images/04232007001_200411937-001.jpg";
 
 function Procedures() {
     return (
         <div id='procedures'>
             <Header/>
             <background>
-                <img src={background_heading}/>
-                <img src={background_top}/>
-                <img src={background_repeat} className='repeat'/>
-                <img src={background_bottom}/>
+                <img src={background_heading} alt=""/>
+                <img src={background_top} alt=""/>
+                <img src={background_repeat} className='repeat' alt=""/>
+                <img src={background_bottom} alt=""/>
             </background>
             <div className='home_columns'>
                 <div className='column_1'>
@@ -88,11 +85,11 @@ function Procedures() {
                         </form>
                     </div>
                     <div className='icons'>
-                        <a href=''>
-                            <img src={facebook}/>
+                        <a href='#!'>
+                            <img src={facebook} alt=""/>
                         </a>
-                        <a href=''>
-                            <img src={yelp}/>
+                        <a href='#!'>
+                            <img src={yelp} alt=""/>
                         </a>
                     </div>
                 </div>
@@ -106,14 +103,14 @@ function Procedures() {
                             <blue>Breast</blue>
                         </h3>
                         <br/>
-                        <a href='' className='a_link'>Breast Augmentation (Implants for enlargement)
+                        <a href='#!' className='a_link'>Breast Augmentation (Implants for enlargement)
                         </a>
                         <br/>
-                        <a href='' className='a_link'>Breast Lifts</a>
+                        <a href='#!' className='a_link'>Breast Lifts</a>
                         <br/>
-                        <a href='' className='a_link'>Breast Reduction</a>
+                        <a href='#!' className='a_link'>Breast Reduction</a>
                         <br/>
-                        <a href='' className='a_link'>Male Breast Reduction 'Gynecomastia'</a>
+                        <a href='#!' className='a_link'>Male Breast Reduction 'Gynecomastia'</a>
                         <br/><br/>
                     </blue_box>
                     <br/>
@@ -122,31 +119,31 @@ function Procedures() {
                             <blue>Body</blue>
                         </h3>
                         <br/>
-                        <a href='' className='a_link'>Breast Lifts</a>
+                        <a href='#!' className='a_link'>Breast Lifts</a>
                         <br/>
-                        <a href='' className='a_link'>Breast Lifts</a>
+                        <a href='#!' className='a_link'>Breast Lifts</a>
                         <br/>
-                        <a href='' className='a_link'>Laser LifeSculpt Liposuction</a>
+                        <a href='#!' className='a_link'>Laser LifeSculpt Liposuction</a>
                         <br/>
-                        <a href='' className='a_link'>Tummy Tuck 'Abdominoplasty</a>
+                        <a href='#!' className='a_link'>Tummy Tuck 'Abdominoplasty</a>
                         <br/>
-                        <a href='' className='a_link'>Mommy Makeovers</a>
+                        <a href='#!' className='a_link'>Mommy Makeovers</a>
                         <br/>
-                        <a href='' className='a_link'>'Otoplasty'</a>
+                        <a href='#!' className='a_link'>'Otoplasty'</a>
                         <br/>
-                        <a href='' className='a_link'>Labiaplasty</a>
+                        <a href='#!' className='a_link'>Labiaplasty</a>
                         <br/>
-                        <a href='' className='a_link'>Earlobe Repair</a>
+                        <a href='#!' className='a_link'>Earlobe Repair</a>
                         <br/>
-                        <a href='' className='a_link'>Buttock Contouring</a>
+                        <a href='#!' className='a_link'>Buttock Contouring</a>
                         <br/>
-                        <a href='' className='a_link'>Thigh Lift 'Thighplasty'</a>
+                        <a href='#!' className='a_link'>Thigh Lift 'Thighplasty'</a>
                         <br/>
-                        <a href='' className='a_link'>Upper Arm Lift 'Brachioplasty'</a>
+                        <a href='#!' className='a_link'>Upper Arm Lift 'Brachioplasty'</a>
                         <br/>
-                        <a href='' className='a_link'>Mole/Lesion Removal</a>
+                        <a href='#!' className='a_link'>Mole/Lesion Removal</a>
                         <br/>
-                        <a href='' className='a_link'>Body Sculpting after major weight loss</a>
+                        <a href='#!' className='a_link'>Body Sculpting after major weight loss</a>
                         <br/><br/>
                     </blue_box>
                     <br/>
@@ -155,23 +152,23 @@ function Procedures() {
                             <blue>Face</blue>
                         </h3>
                         <br/>
-                        <a href='' className='a_link'>Face Lift</a>
+                        <a href='#!' className='a_link'>Face Lift</a>
                         <br/>
-                        <a href='' className='a_link'>Eyelid Lift 'Blepharoplasty'</a>
+                        <a href='#!' className='a_link'>Eyelid Lift 'Blepharoplasty'</a>
                         <br/>
-                        <a href='' className='a_link'>Brow Lift</a>
+                        <a href='#!' className='a_link'>Brow Lift</a>
                         <br/>
-                        <a href='' className='a_link'>Rhinoplasty</a>
+                        <a href='#!' className='a_link'>Rhinoplasty</a>
                         <br/>
-                        <a href='' className='a_link'>Chin Surgery (Implant)</a>
+                        <a href='#!' className='a_link'>Chin Surgery (Implant)</a>
                         <br/>
-                        <a href='' className='a_link'>Otoplasty 'Ear Reduction'</a>
+                        <a href='#!' className='a_link'>Otoplasty 'Ear Reduction'</a>
                         <br/>
-                        <a href='' className='a_link'>Autologous Fat Transfer</a>
+                        <a href='#!' className='a_link'>Autologous Fat Transfer</a>
                         <br/>
-                        <a href='' className='a_link'>Portrait Plasma Laser Treatment</a>
+                        <a href='#!' className='a_link'>Portrait Plasma Laser Treatment</a>
                         <br/>
-                        <a href='' className='a_link'>Ear Lobe Repair</a>
+                        <a href='#!' className='a_link'>Ear Lobe Repair</a>
                         <br/>
                         <br/>
                         <h3>
@@ -179,19 +176,19 @@ function Procedures() {
                         </h3>
                         <br/>
 
-                        <a href='' className='a_link'>Botox©</a>
+                        <a href='#!' className='a_link'>Botox©</a>
                         <br/>
-                        <a href='' className='a_link'>Juvederm</a>
+                        <a href='#!' className='a_link'>Juvederm</a>
                         <br/>
-                        <a href='' className='a_link'>Perlane</a>
+                        <a href='#!' className='a_link'>Perlane</a>
                         <br/>
-                        <a href='' className='a_link'>Restylane </a>
+                        <a href='#!' className='a_link'>Restylane </a>
                         <br/>
-                        <a href='' className='a_link'>Radiesse</a>
+                        <a href='#!' className='a_link'>Radiesse</a>
                         <br/>
-                        <a href='' className='a_link'>Obagi Skin Care Line</a>
+                        <a href='#!' className='a_link'>Obagi Skin Care Line</a>
                         <br/>
-                        <a href='' className='a_link'>Latisse- Lash growing Rx</a>
+                        <a href='#!' className='a_link'>Latisse- Lash growing Rx</a>
                         <br/>
 
 
@@ -222,7 +219,7 @@ function Procedures() {
 
                 <div className='column_3'>
                     <a href='/about_doctor'>
-                        <img src={body_pic}/>
+                        <img src={body_pic} alt=""/>
                     </a>
                     <br/>
                     <br/>
@@ -240,7 +237,7 @@ function Procedures() {
                     <br/>
                     <br/>
                     <a href='/consultations' className='a_link'>
-                        <img src={body_pic2}/>
+                        <img src={body_pic2} alt=""/>
                     </a>
                     Waiting Area
                     <br/>
@@ -248,24 +245,24 @@ function Procedures() {
                     <br/>
                     <br/>
                     <a href='/aaaasf' className='a_link'>
-                        <img src={body_pic3}/>
+                        <img src={body_pic3} alt=""/>
                         AAAASF Surgical Center
                     </a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-                    <img src={logo1}/>
+                    <img src={logo1} alt=""/>
                     <div>
-                        <img src={logo2}/>
-                        <img src={logo3}/>
+                        <img src={logo2} alt=""/>
+                        <img src={logo3} alt=""/>
                     </div>
                     <br/>
-                    <img src={logo5}/>
+                    <img src={logo5} alt=""/>
                     <br/>
-                    <img src={logo6}/>
+                    <img src={logo6} alt=""/>
                     <br/>
-                    <img src={logo7}/><br/>
+                    <img src={logo7} alt=""/><br/>
                     <br/>
                     <br/>
                     <br/>

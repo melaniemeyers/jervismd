@@ -25,10 +25,10 @@ function AAAASF() {
         <div id='aaaasf'>
             <Header/>
             <background>
-                <img src={background_heading}/>
-                <img src={background_top}/>
-                <img src={background_repeat} className='repeat4'/>
-                <img src={background_bottom}/>
+                <img src={background_heading} alt=""/>
+                <img src={background_top} alt=""/>
+                <img src={background_repeat} className='repeat4' alt=""/>
+                <img src={background_bottom} alt=""/>
             </background>
             <div className='home_columns'>
                 <div className='column_1'>
@@ -86,11 +86,11 @@ function AAAASF() {
                         </form>
                     </div>
                     <div className='icons'>
-                        <a href=''>
-                            <img src={facebook}/>
+                        <a href='#!'>
+                            <img src={facebook} alt=""/>
                         </a>
-                        <a href=''>
-                            <img src={yelp}/>
+                        <a href='#!'>
+                            <img src={yelp} alt=""/>
                         </a>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ function AAAASF() {
                         </bold>
                     </trans>
                     <br/>
-                    <img src={aaaasf}/>
+                    <img src={aaaasf} alt=""/>
                     <br/>
                     <p><b>AAAASF</b> certifies surgery centers to be safe for all types of sedation and anesthesia, and
                         recovery
@@ -148,7 +148,7 @@ function AAAASF() {
 
                 <div className='column_3'>
                     <a href='/about_doctor'>
-                        <img src={body_pic}/>
+                        <img src={body_pic} alt=""/>
                     </a>
                     <br/>
                     <br/>
@@ -166,7 +166,7 @@ function AAAASF() {
                     <br/>
                     <br/>
                     <a href='/consultations' className='a_link'>
-                        <img src={body_pic2}/>
+                        <img src={body_pic2} alt=""/>
                     </a>
                     Waiting Area
                     <br/>
@@ -174,24 +174,24 @@ function AAAASF() {
                     <br/>
                     <br/>
                     <a href='/aaaasf' className='a_link'>
-                        <img src={body_pic3}/>
+                        <img src={body_pic3} alt=""/>
                         AAAASF Surgical Center
                     </a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-                    <img src={logo1}/>
+                    <img src={logo1} alt=""/>
                     <div>
-                        <img src={logo2}/>
-                        <img src={logo3}/>
+                        <img src={logo2} alt=""/>
+                        <img src={logo3} alt=""/>
                     </div>
                     <br/>
-                    <img src={logo5}/>
+                    <img src={logo5} alt=""/>
                     <br/>
-                    <img src={logo6}/>
+                    <img src={logo6} alt=""/>
                     <br/>
-                    <img src={logo7}/>
+                    <img src={logo7} alt=""/>
                     <br/><br/><br/><br/><br/>
                     <br/><br/><br/><br/><br/>
                 </div>

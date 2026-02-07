@@ -3,7 +3,7 @@ import './Header.css'
 function Header(){
     return(
         <div id='header'>
-            <img src={header}/>
+            <img src={header} alt=""/>
         </div>
     )
 }

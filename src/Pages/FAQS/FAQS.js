@@ -24,10 +24,10 @@ function FAQS() {
         <div id='faqs'>
             <Header/>
             <background>
-                <img src={background_heading}/>
-                <img src={background_top}/>
-                <img src={background_repeat} className='repeat_faqs'/>
-                <img src={background_bottom}/>
+                <img src={background_heading} alt=""/>
+                <img src={background_top} alt=""/>
+                <img src={background_repeat} className='repeat_faqs' alt=""/>
+                <img src={background_bottom} alt=""/>
             </background>
             <div className='home_columns'>
                 <div className='column_1'>
@@ -85,11 +85,11 @@ function FAQS() {
                         </form>
                     </div>
                     <div className='icons'>
-                        <a href=''>
-                            <img src={facebook}/>
+                        <a href='#!'>
+                            <img src={facebook} alt=""/>
                         </a>
-                        <a href=''>
-                            <img src={yelp}/>
+                        <a href='#!'>
+                            <img src={yelp} alt=""/>
                         </a>
                     </div>
                 </div>
@@ -179,20 +179,20 @@ function FAQS() {
                             <br/>
                             The top 5 surgical procedures are:
                             <ul>
-                                <li><a className='a_link'>Liposuction (usually laser assisted)</a></li>
-                                <li><a className='a_link'>Breast augmentation/ breast lift</a></li>
-                                <li><a className='a_link'>Abdominoplasty (Tummy Tuck)</a></li>
-                                <li><a className='a_link'>Eyelid lift</a></li>
-                                <li><a className='a_link'>Facelifts/necklifts</a></li>
+                                <li><a className='a_link' href='#!'>Liposuction (usually laser assisted)</a></li>
+                                <li><a className='a_link' href='#!'>Breast augmentation/ breast lift</a></li>
+                                <li><a className='a_link' href='#!'>Abdominoplasty (Tummy Tuck)</a></li>
+                                <li><a className='a_link' href='#!'>Eyelid lift</a></li>
+                                <li><a className='a_link' href='#!'>Facelifts/necklifts</a></li>
                             </ul>
-                            <a className='a_link'>Botox (& other neuromodulators), Fillers (Juvederm, Radiesse, Belotera
+                            <a className='a_link' href='#!'>Botox (& other neuromodulators), Fillers (Juvederm, Radiesse, Belotera
                                 or your own
                                 fat), laser resurfacing (Cutera or Portrait Plasma)and chemical peels (Apeele)</a> are
                             good
                             choices for those who want to make minor improvements but are not ready for 'surgery'.
                             <br/>
                             <br/>
-                            Take <a className='a_link'>liposuction</a> for example, or a <a className='a_link'>tummy
+                            Take <a className='a_link' href='#!'>liposuction</a> for example, or a <a className='a_link' href='#!'>tummy
                                 tuck</a>, some may think surgery is 'cheating'. Not
                             taking into account that we all have different body types and different ways of carrying fat
                             deposits that may or may not respond to exercise. Diet and exercise are important to our
@@ -223,7 +223,7 @@ function FAQS() {
                         <h4>Safety concerns?</h4>
                         <blue>It's normal to be concerned, cosmetic surgery isn't something the average person does very
                             often. Surgery in general can be scary but the majority of patients are put at ease after
-                            their <a href='consultations' className='a_link'>consultation</a> with Dr. Jervis. <a
+                            their <a href='consultations' className='a_link'>consultation</a> with Dr. Jervis. <a href='#!'
                                 className='a_link'>Safety</a> is
                             a top priority, we employee highly skilled
                             anesthesiologists from John Muir Hospital, all MD's too. Dr. Jervis will take his time
@@ -300,7 +300,7 @@ function FAQS() {
                     <div id='id11'>
                         <h4>I want to look better but I'm just not ready for any 'big' procedures. Is there anything I
                             can do? </h4>
-                        <blue>Little improvements can add up to big improvements. <a className='a_link'>Xeomin, Botox,
+                        <blue>Little improvements can add up to big improvements. <a className='a_link' href='#!'>Xeomin, Botox,
                             Facial fillers</a>,
                             Portrait Plasma, and chemical peels are just some of what we can do help you look younger,
                             more rested.
@@ -327,7 +327,7 @@ function FAQS() {
                             us
                             at <b>925-937-7100</b> or <a href='http://www.msn.com/' className='a_link'>email us</a>. At
                             that time,
-                            we can also share information on <a className='a_link'>financing plans</a>.
+                            we can also share information on <a className='a_link' href='#!'>financing plans</a>.
 
                         </blue>
                     </div>
@@ -395,7 +395,7 @@ function FAQS() {
 
                 <div className='column_3'>
                     <a href='/about_doctor'>
-                        <img src={body_pic}/>
+                        <img src={body_pic} alt=""/>
                     </a>
                     <br/>
                     <br/>
@@ -413,7 +413,7 @@ function FAQS() {
                     <br/>
                     <br/>
                     <a href='/consultations' className='a_link'>
-                        <img src={body_pic2}/>
+                        <img src={body_pic2} alt=""/>
                     </a>
                     Waiting Area
                     <br/>
@@ -421,24 +421,24 @@ function FAQS() {
                     <br/>
                     <br/>
                     <a href='/aaaasf' className='a_link'>
-                        <img src={body_pic3}/>
+                        <img src={body_pic3} alt=""/>
                         AAAASF Surgical Center
                     </a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-                    <img src={logo1}/>
+                    <img src={logo1} alt=""/>
                     <div>
-                        <img src={logo2}/>
-                        <img src={logo3}/>
+                        <img src={logo2} alt=""/>
+                        <img src={logo3} alt=""/>
                     </div>
                     <br/>
-                    <img src={logo5}/>
+                    <img src={logo5} alt=""/>
                     <br/>
-                    <img src={logo6}/>
+                    <img src={logo6} alt=""/>
                     <br/>
-                    <img src={logo7}/>
+                    <img src={logo7} alt=""/>
                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
 

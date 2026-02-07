@@ -8,7 +8,7 @@ function Footer(){
                 <a href='/consultations'>Consultations</a> | <span/>
                 <a href='/procedures'>Procedures</a> | <span/>
                 <a href='/surgery_center'>Surgical Center</a> | <span/>
-                {/*<a href=''>Surgical Procedures</a> | <span/>*/}
+                {/*<a href='#!'>Surgical Procedures</a> | <span/>*/}
                 <a href='/aaaasf'>AAAASF Surgical Facility</a> | <span/>
                 <a href='/faqs'>FAQS</a> | <span/>
                 <a href='/links'>Links</a> | <span/>
@@ -19,31 +19,31 @@ function Footer(){
                 {/*<a href='/breast/enlargement'>Breast Enlargement</a> | <span/>*/}
                 {/*<a href='/breast/lift'>Breast Lift</a> | <span/>*/}
                 <a href='/breast/reduction'>Breast Reduction</a> <span/>
-                {/*<a href=''>Mommy Makeover</a> | <span/>*/}
-                {/*<a href=''>Liposuction</a> | <span/>*/}
-                {/*<a href=''>TUMMY TUCK</a> | <span/>*/}
-                {/*<a href=''>PHOTO GALLERY</a> | <span/>*/}
-                {/*<a href=''>Financing</a>*/}
+                {/*<a href='#!'>Mommy Makeover</a> | <span/>*/}
+                {/*<a href='#!'>Liposuction</a> | <span/>*/}
+                {/*<a href='#!'>TUMMY TUCK</a> | <span/>*/}
+                {/*<a href='#!'>PHOTO GALLERY</a> | <span/>*/}
+                {/*<a href='#!'>Financing</a>*/}
                 <br/>
 
-                {/*<a href=''>Patient Forms</a> | <span/>*/}
-                {/*<a href=''>Directions</a> | <span/>*/}
-                {/*<a href=''>What’s New</a> | <span/>*/}
-                {/*<a href=''>Site Map</a> | <span/>*/}
-                {/*<a href=''>Ear Lobe Repair</a> | <span/>*/}
+                {/*<a href='#!'>Patient Forms</a> | <span/>*/}
+                {/*<a href='#!'>Directions</a> | <span/>*/}
+                {/*<a href='#!'>What’s New</a> | <span/>*/}
+                {/*<a href='#!'>Site Map</a> | <span/>*/}
+                {/*<a href='#!'>Ear Lobe Repair</a> | <span/>*/}
                 <a href='/face'>Face Procedures</a> | <span/>
-                {/*<a href=''>Facial Implants</a> | <span/>*/}
-                {/*<a href=''>Face Lift</a> | <span/>*/}
-                {/*<a href=''>Fat Transfer</a>*/}
+                {/*<a href='#!'>Facial Implants</a> | <span/>*/}
+                {/*<a href='#!'>Face Lift</a> | <span/>*/}
+                {/*<a href='#!'>Fat Transfer</a>*/}
                 {/*<br/>*/}
-                {/*<a href=''>Gynecomastia</a> | <span/>*/}
+                {/*<a href='#!'>Gynecomastia</a> | <span/>*/}
                 <a href='/face/lip_augmentation'>Lip Augmentation</a> | <span/>
-                {/*<a href=''>Ears-Otoplasty</a> | <span/>*/}
+                {/*<a href='#!'>Ears-Otoplasty</a> | <span/>*/}
                 <a href='/face/eyelid_lift'>Eyes-Blepharoplasty</a> <span/>
                 <br/>
                 <a href='/contact_doctor'>Contact Dr. Jervis</a> | <span/>
                 <a href='/'>Home</a> <span/>
-                {/*<a href=''>AVTA Facelift Technic</a>*/}
+                {/*<a href='#!'>AVTA Facelift Technic</a>*/}
                 <br/>
                 <br/>
                 Copyright 2010 William Jervis, MD: Breast Augmentation California. All Rights Reserved

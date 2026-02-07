@@ -1,4 +1,4 @@
-function Box_3(){
+function Box3(){
     return (
         <div className='box-3'>
             <b>
@@ -14,4 +14,4 @@ function Box_3(){
     )
 }
 
-export default Box_3;
+export default Box3;
